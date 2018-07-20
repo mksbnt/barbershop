@@ -710,6 +710,23 @@ padding: 10px 15px;
 	padding-right: 80px;
 }
 
+.login-modal-content {
+	display: block;
+	
+
+	
+	width: 300px;
+	margin-left: auto;
+	padding: auto;
+	
+	color: #000000;
+	
+	background: #f8f3f0 url("../img/barbershop-index/back-block-index.png");
+	
+	box-shadow: 0 30px 50px rgba(0, 0, 0, 0,7);
+}
+
+
 /*Всплывающая форма*/
 
 .modal-content {
