@@ -1305,3 +1305,8 @@ padding: 10px 15px;
 	background-color: #000000;
 	transform: rotate(45deg);
 }
+
+.map {
+	margin-left: 300px;
+
+}
