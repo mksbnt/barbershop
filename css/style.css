@@ -1,271 +1,333 @@
 html,
-body {
-	min-width: 960px;
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial", sans-serif;
-	text-transform: uppercase;
-	color: #ffffff;
-	background: #000000 url("../img/barbershop-index/background-index.jpg")
-	no-repeat center top;
+body
+{
+    font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+
+    min-width: 960px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    background: #000 url('../img/barbershop-index/background-index.jpg')
+    no-repeat center top;
 }
 
-.inner-page {
-	color: #000000;
-
-	background: #f8f3f0
-	url("../img/barbershop-index/back-block-index.png")
-	repeat;
+.inner-page
+{
+    color: #000;
+    background: #f8f3f0
+    url('../img/barbershop-index/back-block-index.png')
+    repeat;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
+img
+{
+    max-width: 100%;
+    height: auto;
 }
 
 /* HEADER */
 
-.main-header {
-min-height: 70px;
-margin-bottom: 60px;
-color: #ffffff;
-background-color: #000000;
+.main-header
+{
+    min-height: 70px;
+    margin-bottom: 60px;
+
+    color: #fff;
+    background-color: #000;
 }
 
-.container {
-	width: 940px;
-	margin: 0 auto;
-	padding: 0 10px;
+.container
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
+.clearfix::after
+{
+    display: table;
+    clear: both;
+
+    content: '';
 }
 
-.main-navigation {
-	float: left;
-	width: 800px;
+.main-navigation
+{
+    float: left;
+
+    width: 800px;
 }
 
-.main-navigation a {
-	display: block;
-	padding: 25px 20px;
-	color: #ffffff;
-	text-decoration: none;
+.main-navigation a
+{
+    display: block;
+
+    padding: 25px 20px;
+
+    text-decoration: none;
+
+    color: #fff;
 }
 
-.main-navigation a:hover {
-	background: #242424;
+.main-navigation a:hover
+{
+    background: #242424;
 }
 
-.main-navigation ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	font-size: 0;
+.main-navigation ul
+{
+    font-size: 0;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
 }
 
-.main-navigation li {
-	display: inline-block;
-	font-size: 16px;
-	line-height: 20px;
-	vertical-align: top;
+.main-navigation li
+{
+    font-size: 16px;
+    line-height: 20px;
+
+    display: inline-block;
+
+    vertical-align: top;
 }
 
-.user-block {
-	float: right;
-	max-width: 140px;
+.user-block
+{
+    float: right;
+
+    max-width: 140px;
 }
 
-.login {
-	position: relative;
+.login
+{
+    font-size: 16px;
+    line-height: 20px;
 
-	display: inline-block;
-	padding: 25px 20px;
-	padding-left: 50px;
+    position: relative;
 
-	font-size: 16px;
-	line-height: 20px;
-	color: #ffffff;
-	text-decoration: none;
-	vertical-align: top;
+    display: inline-block;
+
+    padding: 25px 20px;
+    padding-left: 50px;
+
+    vertical-align: top;
+    text-decoration: none;
+
+    color: #fff;
 }
 
-.login:hover {
-	background-color: #242424;
+.login:hover
+{
+    background-color: #242424;
 }
 
-.login::before {
-	content: "";
-	position: absolute;
-	top: 28px;
-	left: 20px;
+.login::before
+{
+    position: absolute;
+    top: 28px;
+    left: 20px;
 
-	width: 18px;
-	height: 18px;
+    width: 18px;
+    height: 18px;
 
-	background:
-	url("../img/barbershop-index/sprite.png") no-repeat;
-	background-position: -15px -15px;
-	opacity: 0.3;
+    content: '';
+
+    opacity: .3;
+    background: url('../img/barbershop-index/sprite.png') no-repeat;
+    background-position: -15px -15px;
 }
 
-.login:hover::before {
-	opacity: 1;
+.login:hover::before
+{
+    opacity: 1;
 }
 
 /* MAIN */
 
-.index-logo {
-	width: 368px;
-	height: 204px;
-	margin: 0 auto;
-	margin-bottom: 25px;
+.index-logo
+{
+    width: 368px;
+    height: 204px;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
-.index-logo img {
-	width: 368px;
-	height: 204px;
+.index-logo img
+{
+    width: 368px;
+    height: 204px;
 }
 
-.item-index {
-	width: 640px;
-	margin-bottom: 60px;
+.item-index
+{
+    width: 640px;
+    margin-bottom: 60px;
 }
 
-.features-item {
-	float: left;
-	width: 300px;
-	margin-right: 20px;
+.features-item
+{
+    float: left;
 
-	margin-bottom: 80px;
-	text-align: center;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+
+    text-align: center;
 }
 
-.features-name {
-	position:relative;
-	display: block;
-	margin-bottom: 30px;
-	padding-bottom: 35px;
+.features-name
+{
+    font-size: 30px;
+    line-height: 42px;
 
-	font-size: 30px;
-	line-height: 42px;
+    position: relative;
+
+    display: block;
+
+    margin-bottom: 30px;
+    padding-bottom: 35px;
 }
 
-.features-name::after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 50%;
+.features-name::after
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 
-	display: block;
-	width: 20px;
-	height: 20px;
-	margin-left: -10px;
+    display: block;
 
-	background-color: #ffffff;
-	transform: rotate(45deg);
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+
+    content: '';
+    transform: rotate(45deg);
+
+    background-color: #fff;
 }
 
-.features-item p {
-	margin: 10px;
-	margin-bottom: 0;
+.features-item p
+{
+    margin: 10px;
+    margin-bottom: 0;
 }
 
-.features-item:last-child {
-	margin-right: 0;
+.features-item:last-child
+{
+    margin-right: 0;
 }
 
-.features {
-	margin-bottom: 80px;
+.features
+{
+    margin-bottom: 80px;
 }
 
-.index-content {
-	padding: 50px 80px;
-	margin-bottom: 35px;
-	color: #000000;
+.index-content
+{
+    margin-bottom: 35px;
+    padding: 50px 80px;
 
-	background:url("../img/barbershop-index/block-shadow-hr.png") no-repeat center,
-	#f8f5f2
-	url("../img/barbershop-index/back-block-index.png");
+    color: #000;
+    background: url('../img/barbershop-index/block-shadow-hr.png') no-repeat center,
+    #f8f5f2
+    url('../img/barbershop-index/back-block-index.png');
 }
 
-.index-content:first-of-type {
-	margin-top: 80px;
+.index-content:first-of-type
+{
+    margin-top: 80px;
 }
 
-.index-content-title {
-	margin: 0;
-	margin-bottom: 25px;
+.index-content-title
+{
+    font-size: 30px;
+    line-height: 42px;
 
-	font-size: 30px;
-	line-height: 42px;
+    margin: 0;
+    margin-bottom: 25px;
 }
 
-.index-content p {
-	margin: 0;
-	margin-bottom: 25px;
+.index-content p
+{
+    margin: 0;
+    margin-bottom: 25px;
 }
 
-.news-preview {
-	margin: 0;
-	padding: 0;
-	padding-right: 35px;
+.news-preview
+{
+    margin: 0;
+    padding: 0;
+    padding-right: 35px;
 
-	list-style: none;
+    list-style: none;
 }
 
-.news-preview li {
-	margin-bottom: 25px;
+.news-preview li
+{
+    margin-bottom: 25px;
 }
 
-.news-preview p {
-	margin: 0;
+.news-preview p
+{
+    margin: 0;
 }
 
-.news-preview time {
-	text-transform: none;
-	font-weight: 400;
+.news-preview time
+{
+    font-weight: 400;
+
+    text-transform: none;
 }
 
-.btn {
-	display: inline-block;
-	padding: 10px 33px;
-	margin-right: 16px;
+.btn
+{
+    font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
 
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial", sans-serif;
-	vertical-align: top;
-	text-align: center;
-	color: #ffffff;
-	text-transform: uppercase;
-	text-decoration: none;
+    display: inline-block;
 
-	background-color: #000000;
-	border: none;
-	outline: none;
-	cursor: pointer;
+    margin-right: 16px;
+    padding: 10px 33px;
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #000;
 }
 
 .btn:hover,
-.btn:active {
-	background-color: #663d15;
+.btn:active
+{
+    background-color: #663d15;
 }
 
 .btn.disabled,
-.btn:disabled {
-	cursor: default;
-	opacity: 0.5;
+.btn:disabled
+{
+    cursor: default;
+
+    opacity: .5;
 }
 
 .btn.disabled:hover,
-.btn:disabled:hover {
-	background-color: #000000;
+.btn:disabled:hover
+{
+    background-color: #000;
 }
 
 /*
@@ -276,721 +338,888 @@ background-color: #000000;
 }
 */
 
-.gallery {
-	position: relative;
-	height: 260px;
+.gallery
+{
+    position: relative;
+
+    height: 260px;
 }
 
-.gallery-content {
-	height: 164px;
-	margin: 0;
+.gallery-content
+{
+    height: 164px;
+    margin: 0;
 
-	background-color: #cccccc;
-	border: 7px solid #ffffff;
+    border: 7px solid #fff;
+    background-color: #ccc;
 }
 
-.gallery-content img {
-	width: 286px;
-	height: 164px;
+.gallery-content img
+{
+    width: 286px;
+    height: 164px;
 }
 
-.gallery .btn {
-	position: absolute;
-	bottom: 0;
+.gallery .btn
+{
+    position: absolute;
+    bottom: 0;
 
-	width: 140px;
-	margin: 0;
+    width: 140px;
+    margin: 0;
 }
 
-.gallery-prev {
-	left: 0;
+.gallery-prev
+{
+    left: 0;
 }
 
-.gallery-next {
-	right: 0;
+.gallery-next
+{
+    right: 0;
 }
 
-.appointment-form input {
-/*
+.appointment-form input
+{
+    font: inherit;
+    /*
 	font-size: 14px;
 	line-height: 24px;
 	font-family: "PT Sans Narrow", "Arial", sans-serif;
 	color: #000000;
 	text-transform: uppercase;
 */
-	float: left;
 
-	width: 106px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	padding: 7px 15px;
+    float: left;
 
-	font: inherit;
-	color: inherit;
-	text-transform: inherit;
+    width: 106px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 7px 15px;
 
-	background-color: #f9f6f3;
-	border: 2px solid #000000;
-	outline: none;
+    text-transform: inherit;
+
+    color: inherit;
+    border: 2px solid #000;
+    outline: none;
+    background-color: #f9f6f3;
 }
 
-.appointment-form input:nth-last-child(2n) {
-	margin-right: 0;
+.appointment-form input:nth-last-child(2n)
+{
+    margin-right: 0;
 }
 
-.appointment-form .btn {
-	clear: both;
-	width: 100%;
+.appointment-form .btn
+{
+    clear: both;
+
+    width: 100%;
 }
 
-.appointment-form input:focus {
-	border: 2px solid #663d15;
-}
-
-
-.index-content-left {
-	float: left;
-	width: 380px;
-	min-height: 300px;
-}
-
-.index-content-right {
-	float: right;
-	width: 300px;
-	min-height: 300px;
-}
-
-.main-footer {
-	min-height: 120px;
-	margin-top: 65px;
-	padding-top: 60px;
-	padding-bottom: 40px;
-
-	color: #ffffff;
-	background: #252525 url("../img/barbershop-index/back-footer-index.png");
-}
-
-.footer-contacts {
-	float:left;
-	width: 320px;
-	margin-right: 60px;
-	min-height: 90px;
-}
-
-.footer-social {
-	float: left;
-	width: 180px;
-	min-height: 90px;
-
-	text-align: center;
-}
-
-.footer-copyright {
-	float:right;
-	max-width: 180px;
-}
-
-.footer-copyright p {
-	margin: 0;
-	margin-bottom: 15px;
-	text-align: center;
-}
-
-.footer-copyright .btn {
-	margin-right: 0;
-}
-
-.footer-copyright .btn:hover {
-	color: #000000;
-	background-color: #ffffff;
-}
-
-.footer-contacts a {
-	color: #ffffff;
-}
-
-.footer-contacts a:hover {
-	text-decoration: none;
-}
-
-.footer-social p {
-	margin: 0;
-	margin-bottom: 15px;
-}
-
-.social-btn {
-	display: inline-block;
-	width: 43px;
-	height: 43px;
-	margin: 0 2px;
-
-	font-size: 0;
-	vertical-align: top;
-	text-decoration: none;
-
-	background: #000000 url(../img/barbershop-index/sprite.png) no-repeat center;
-
-	transition:
-		background-position 0.5s,
-		background-color 0.5s;
+.appointment-form input:focus
+{
+    border: 2px solid #663d15;
 }
 
 
-.social-btn-vk {
-	background-position: -6px -388px;
+.index-content-left
+{
+    float: left;
+
+    width: 380px;
+    min-height: 300px;
 }
 
-.social-btn-fb {
-	background-position: 1px -185px;
+.index-content-right
+{
+    float: right;
+
+    width: 300px;
+    min-height: 300px;
 }
 
-.social-btn-inst {
-	background-position: -3px -288px;
+.main-footer
+{
+    min-height: 120px;
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    color: #fff;
+    background: #252525 url('../img/barbershop-index/back-footer-index.png');
 }
 
-.social-btn:hover {
-	background-color: #ffffff;
+.footer-contacts
+{
+    float: left;
+
+    width: 320px;
+    min-height: 90px;
+    margin-right: 60px;
 }
 
-.social-btn-vk:hover {
-	background-position: -6px -434px;
+.footer-social
+{
+    float: left;
+
+    width: 180px;
+    min-height: 90px;
+
+    text-align: center;
 }
 
-.social-btn-fb:hover {
-	background-position: 1px -237px;
+.footer-copyright
+{
+    float: right;
+
+    max-width: 180px;
 }
 
-.social-btn-inst:hover {
-	background-position: -3px -339px;
+.footer-copyright p
+{
+    margin: 0;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+.footer-copyright .btn
+{
+    margin-right: 0;
+}
+
+.footer-copyright .btn:hover
+{
+    color: #000;
+    background-color: #fff;
+}
+
+.footer-contacts a
+{
+    color: #fff;
+}
+
+.footer-contacts a:hover
+{
+    text-decoration: none;
+}
+
+.footer-social p
+{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.social-btn
+{
+    font-size: 0;
+
+    display: inline-block;
+
+    width: 43px;
+    height: 43px;
+    margin: 0 2px;
+
+    transition: background-position .5s,
+    background-color .5s;
+    vertical-align: top;
+    text-decoration: none;
+
+    background: #000 url(../img/barbershop-index/sprite.png) no-repeat center;
+}
+
+
+.social-btn-vk
+{
+    background-position: -6px -388px;
+}
+
+.social-btn-fb
+{
+    background-position: 1px -185px;
+}
+
+.social-btn-inst
+{
+    background-position: -3px -288px;
+}
+
+.social-btn:hover
+{
+    background-color: #fff;
+}
+
+.social-btn-vk:hover
+{
+    background-position: -6px -434px;
+}
+
+.social-btn-fb:hover
+{
+    background-position: 1px -237px;
+}
+
+.social-btn-inst:hover
+{
+    background-position: -3px -339px;
 }
 
 /* item.html */
 
-.item-content {
-	margin-bottom: 60px;
+.item-content
+{
+    margin-bottom: 60px;
 }
 
-.item-content-left {
-	float: left;
-	width: 480px;
+.item-content-left
+{
+    float: left;
+
+    width: 480px;
 }
 
-.item-content-right {
-	float: right;
-	width: 400px;
-	margin-top: 25px;
+.item-content-right
+{
+    float: right;
+
+    width: 400px;
+    margin-top: 25px;
 }
 
 /*price.html*/
-.price-content {
-	margin-bottom: 35px;
+.price-content
+{
+    margin-bottom: 35px;
 }
-.main-navigation .logo-inner {
-	float: left;
-	width: 111px;
-	height: 20px;
-	padding-top: 22px;
-}
-.main-navigation .logo-inner img {
-	width: 111px;
-	height: 20px;
-}
-.main-navigation .logo-inner:hover {
-	background: none;
-}
-.main-navigation .active {
-	position: relative;
-	background: none;
-}
-.main-navigation .active::after {
-	content: "";
+.main-navigation .logo-inner
+{
+    float: left;
 
-	position: absolute;
-	right: 20px;
-	bottom: 0;
-	left: 20px;
+    width: 111px;
+    height: 20px;
+    padding-top: 22px;
+}
+.main-navigation .logo-inner img
+{
+    width: 111px;
+    height: 20px;
+}
+.main-navigation .logo-inner:hover
+{
+    background: none;
+}
+.main-navigation .active
+{
+    position: relative;
 
-	height: 5px;
+    background: none;
+}
+.main-navigation .active::after
+{
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    left: 20px;
 
-	background-color: #ffffff;
-}
-.main-navigation .active a:hover {
-	background: none;
-}
-.main-navigation .active span {
-	display: block;
-	margin: 25px 20px;
-}
-.inner-page .main-header {
-	margin-bottom: 55px;
-}
-.inner-page-title h1 {
-	margin: 0;
-	margin-bottom: 20px;
-	padding: 0;
+    height: 5px;
 
-	font-size: 30px;
-	line-height: 42px;
+    content: '';
+
+    background-color: #fff;
 }
-.breadcrumbs {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+.main-navigation .active a:hover
+{
+    background: none;
+}
+.main-navigation .active span
+{
+    display: block;
+
+    margin: 25px 20px;
+}
+.inner-page .main-header
+{
+    margin-bottom: 55px;
+}
+.inner-page-title h1
+{
+    font-size: 30px;
+    line-height: 42px;
+
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.breadcrumbs
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
 }
 
-.breadcrumbs ul {
-	padding: 0;
+.breadcrumbs ul
+{
+    padding: 0;
 }
-
-
-.breadcrumbs a {
-	color: #000000;
-	text-decoration: none;
-}
-.breadcrumbs a:hover {
-	text-decoration: underline;
-}
-.breadcrumbs .current {
-	color: #aba9a7;
-}
-.breadcrumbs li {
-	position: relative;
-
-	display: inline;
-	padding-right: 40px;
-}
-.breadcrumbs li::after {
-	content: "";
-	position: absolute;
-	top: 4px;
-	right: 18px;
 
 
-	width: 8px;
-	height: 8px;
+.breadcrumbs a
+{
+    text-decoration: none;
 
-	background-color: #000000;
-	transform: rotate(45deg);
+    color: #000;
 }
-.breadcrumbs .current::after {
-	display: none;
+.breadcrumbs a:hover
+{
+    text-decoration: underline;
+}
+.breadcrumbs .current
+{
+    color: #aba9a7;
+}
+.breadcrumbs li
+{
+    position: relative;
+
+    display: inline;
+
+    padding-right: 40px;
+}
+.breadcrumbs li::after
+{
+    position: absolute;
+    top: 4px;
+    right: 18px;
+
+    width: 8px;
+    height: 8px;
+
+    content: '';
+    transform: rotate(45deg);
+
+    background-color: #000;
+}
+.breadcrumbs .current::after
+{
+    display: none;
 }
 /* common styles for specific tags */
-.big-heading {
-	margin-top: 55px;
-	margin-bottom: 65px;
-	text-align: center;
+.big-heading
+{
+    margin-top: 55px;
+    margin-bottom: 65px;
+
+    text-align: center;
 }
-.inner-content .big-heading h2 {
-position: relative;
+.inner-content .big-heading h2
+{
+    font-size: 48px;
+    line-height: 48px;
 
-display: inline;
-margin: 0;
-padding: 0 25px;
+    position: relative;
+    z-index: 2;
 
-font-size: 48px;
-line-height: 48px;
-text-align: center;
+    display: inline;
 
-background: #f8f3f0
-url("../img/barbershop-index/back-block-index.png")
-repeat;
+    margin: 0;
+    padding: 0 25px;
 
+    text-align: center;
 
-	z-index: 2;
+    background: #f8f3f0
+    url('../img/barbershop-index/back-block-index.png')
+    repeat;
 }
-.big-heading::after {
-	content: "";
-	position: relative;
-	top: -25px;
-	display: block;
+.big-heading::after
+{
+    position: relative;
+    z-index: 1;
+    top: -25px;
 
-	border-bottom: 2px solid #000000;
+    display: block;
 
-	z-index: 1;
-}
-.inner-content {
-	margin-bottom: 75px;
-}
-.inner-content h2 {
-	margin-top: 60px;
-	margin-bottom: 30px;
+    content: '';
 
-	font-size: 24px;
-	line-height: 30px;
+    border-bottom: 2px solid #000;
 }
-.inner-content p {
-	margin: 14px 0;
+.inner-content
+{
+    margin-bottom: 75px;
 }
-.inner-content h3 {
-	margin-top: 60px;
-	margin-bottom: 30px;
+.inner-content h2
+{
+    font-size: 24px;
+    line-height: 30px;
 
-	font-size: 20px;
-	line-height: 24px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
-.inner-content h2 + h3 {
-	margin-top: 30px;
+.inner-content p
+{
+    margin: 14px 0;
 }
-.inner-content table {
+.inner-content h3
+{
+    font-size: 20px;
+    line-height: 24px;
 
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.inner-content h2 + h3
+{
+    margin-top: 30px;
+}
+.inner-content table
+{
     border-collapse: collapse;
 }
-.inner-content td {
-padding: 10px 15px;
+.inner-content td
+{
+    padding: 10px 15px;
 
-	border: 2px solid #000000;
+    border: 2px solid #000;
 }
-.custum-list-1 {
-	margin: 14px 0;
-	padding: 0;
+.custum-list-1
+{
+    margin: 14px 0;
+    padding: 0;
 
-	list-style: none;
+    list-style: none;
 }
-.custum-list-1 li {
-	position: relative;
+.custum-list-1 li
+{
+    position: relative;
 
-	margin-bottom: 15px;
-	padding-left: 20px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.custum-list-1 li::before
+{
+    position: absolute;
+    top: 8px;
+    left: 0;
 
-}
-.custum-list-1 li::before {
-	content: "";
-	position: absolute;
-	top: 8px;
-	left: 0;
+    width: 8px;
+    height: 8px;
 
-	width: 8px;
-	height: 8px;
+    content: '';
+    transform: rotate(45deg);
 
-	background-color: #000000;
-	transform: rotate(45deg);
+    background-color: #000;
 }
-.price-table {
-	width: 100%;
+.price-table
+{
+    width: 100%;
 }
-.price-table td {
-	width: 50%;
+.price-table td
+{
+    width: 50%;
 }
-.price-table td:last-child {
-	text-align: center;
+.price-table td:last-child
+{
+    text-align: center;
 }
 /* columns for content */
-.inner-columns {
-	margin: 60px 0;
+.inner-columns
+{
+    margin: 60px 0;
 }
 .inner-column-left,
-.inner-column-right {
-	width: 460px;
+.inner-column-right
+{
+    width: 460px;
 }
 
-.inner-column-right {
-	width: 450px;
+.inner-column-right
+{
+    width: 450px;
 }
-.inner-column-left {
-	float: left;
-
+.inner-column-left
+{
+    float: left;
 }
-.inner-column-right {
-	float: right;
-
+.inner-column-right
+{
+    float: right;
 }
 
 .inner-column-left *:first-child,
-.inner-column-right *:first-child {
-	margin-top: 0px;
+.inner-column-right *:first-child
+{
+    margin-top: 0;
 }
 
 .inner-column-left *:last-child,
-.inner-column-right *:last-child {
-	margin-bottom: 0px;
+.inner-column-right *:last-child
+{
+    margin-bottom: 0;
 }
 
-.short-text {
-	padding-right: 80px;
+.short-text
+{
+    padding-right: 80px;
 }
 
-.login-modal-content {
-	display: block;
-	
+.login-modal-content
+{
+    display: block;
 
-	
-	width: 300px;
-	margin-left: auto;
-	padding: auto;
-	
-	color: #000000;
-	
-	background: #f8f3f0 url("../img/barbershop-index/back-block-index.png");
-	
-	box-shadow: 0 30px 50px rgba(0, 0, 0, 0,7);
+    width: 300px;
+    margin-left: auto;
+    padding: auto;
+
+    color: #000;
+    background: #f8f3f0 url('../img/barbershop-index/back-block-index.png');
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0,7);
 }
 
 
 /*Всплывающая форма*/
 
-.modal-content {
-	display: none;
-	
-	position: absolute;
-	top: 120px;
-	left: 50%;
-	z-index: 20;
-	
-	width: 300px;
-	margin-left: -230px;
-	padding: 50px 80px;
-	
-	color: #000000;
-	
-	background: #f8f3f0 url("../img/barbershop-index/back-block-index.png");
-	
-	box-shadow: 0 30px 50px rgba(0, 0, 0, 0,7);
+.modal-content
+{
+    position: absolute;
+    z-index: 20;
+    top: 120px;
+    left: 50%;
+
+    display: none;
+
+    width: 300px;
+    margin-left: -230px;
+    padding: 50px 80px;
+
+    color: #000;
+    background: #f8f3f0 url('../img/barbershop-index/back-block-index.png');
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0,7);
 }
 
-@keyframes bounce {
-	0%   { transform: translateY(-2000px); }
-	70%  { transform: translateY(30px); }
-	90%  { transform: translateY(-10px); }
-	100% { transform: translateY(0); }
+@keyframes bounce
+{
+    0%
+    {
+        transform: translateY(-2000px);
+    }
+    70%
+    {
+        transform: translateY(30px);
+    }
+    90%
+    {
+        transform: translateY(-10px);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
 }
 
-.modal-content-show {
-	display: block;
-	animation: bounce 0.6s;
+.modal-content-show
+{
+    display: block;
+
+    animation: bounce .6s;
 }
 
-@keyframes shake {
-	0%, 100%  				{transform: translateX(0);		}
-	10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);	}
-	20%, 40%, 60%, 80% 		{transform: translateX(10px);	}
+@keyframes shake
+{
+    0%,
+    100%
+    {
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90%
+    {
+        transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80%
+    {
+        transform: translateX(10px);
+    }
 }
 
-.modal-error {
-	animation: shake 0.6s;
+.modal-error
+{
+    animation: shake .6s;
 }
-.modal-content-close {
-	position: absolute;
-	top: 0;
-	right: -34px;
-	
-	width: 22px;
-	height: 22px;
-	
-	font-size: 0;
-	
-	background-color: transparent;
-	border: 0;
-	outline: 0;
-	cursor: pointer;
+.modal-content-close
+{
+    font-size: 0;
+
+    position: absolute;
+    top: 0;
+    right: -34px;
+
+    width: 22px;
+    height: 22px;
+
+    cursor: pointer;
+
+    border: 0;
+    outline: 0;
+    background-color: transparent;
 }
 
 .modal-content-close::before,
-.modal-content-close::after {
-	content: "";
-	position: absolute;
-	margin-left: -10px;
-	margin-top: -1px;
-	
-	width: 19px;
-	height: 3px;
-	background-color: #d0d0d0;
-	border-radius: 1px;
+.modal-content-close::after
+{
+    position: absolute;
+
+    width: 19px;
+    height: 3px;
+    margin-top: -1px;
+    margin-left: -10px;
+
+    content: '';
+
+    border-radius: 1px;
+    background-color: #d0d0d0;
 }
 
-.modal-content-close::before {
-	transform: rotate(45deg)
+.modal-content-close::before
+{
+    transform: rotate(45deg);
 }
 
-.modal-content-close::after {
-	transform: rotate(-45deg)
+.modal-content-close::after
+{
+    transform: rotate(-45deg);
 }
 
-.modal-content h2 {
-	margin: 0;
-	margin-bottom: 20px;
-	
-	font-size: 30px;
-	line-height: 42px;
+.modal-content h2
+{
+    font-size: 30px;
+    line-height: 42px;
+
+    margin: 0;
+    margin-bottom: 20px;
 }
 
-.modal-content p {
-	margin: 0;
-	margin-bottom: 14px;
+.modal-content p
+{
+    margin: 0;
+    margin-bottom: 14px;
 }
 
-.modal-content .login-form {
-	margin-top: 30px;
-	margin-bottom: 10px;
+.modal-content .login-form
+{
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
-.login-form input[type="text"],
-.login-form input[type="password"] {
-	width: 236px;
-	margin: 0;
-	margin-bottom: 10px;
-	padding: 10px 20px;
-	padding-right: 40px;
-	
-	font-size: 14px;
-	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial", sans-serif;
-	color: #000000;
-	text-transform: uppercase;
-	
-	background-color: #f9f6f3;
-	border: 2px solid #000000;
-	outline: none;
+.login-form input[type='text'],
+.login-form input[type='password']
+{
+    font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+
+    width: 236px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    padding-right: 40px;
+
+    text-transform: uppercase;
+
+    color: #000;
+    border: 2px solid #000;
+    outline: none;
+    background-color: #f9f6f3;
 }
 
-.login-form input:focus {
-	border-color: #663d15;
+.login-form input:focus
+{
+    border-color: #663d15;
 }
 
-.login-form input.icon-user {
-	background-image: url(../img/barbershop-index/sprite.png);
-	background-repeat: no-repeat;
-	background-position: 100% -47px;	
+.login-form input.icon-user
+{
+    background-image: url(../img/barbershop-index/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 100% -47px;
 }
 
-.login-form input.icon-password {
-	background-image: url(../img/barbershop-index/sprite.png);
-	background-repeat: no-repeat;
-	background-position: 100% -93px;	
+.login-form input.icon-password
+{
+    background-image: url(../img/barbershop-index/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 100% -93px;
 }
 
-.login-form .restore {
-	float: right;
-	color: #000000;
+.login-form .restore
+{
+    float: right;
+
+    color: #000;
 }
 
-.login-form .btn {
-	width: 100%;
-	margin-top: 15px;
+.login-form .btn
+{
+    width: 100%;
+    margin-top: 15px;
 }
 
-.login-checkbox input[type="checkbox"] {
-	display: none;
+.login-checkbox input[type='checkbox']
+{
+    display: none;
 }
 
-.login-checkbox {
-	position: relative;
-	padding-left: 30px;
-	cursor: pointer;
+.login-checkbox
+{
+    position: relative;
+
+    padding-left: 30px;
+
+    cursor: pointer;
 }
 
-.login-checkbox:hover {
-	color: #663d15;
+.login-checkbox:hover
+{
+    color: #663d15;
 }
 
-.login-checkbox input[type="checkbox"] + .checkbox-indicator {
-	position: absolute;
-	top: -3px;
-	left: 0;	
-	width: 17px;
-	height: 17px;
-	border: 2px solid #000000;
+.login-checkbox input[type='checkbox'] + .checkbox-indicator
+{
+    position: absolute;
+    top: -3px;
+    left: 0;
+
+    width: 17px;
+    height: 17px;
+
+    border: 2px solid #000;
 }
 
-.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
-.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
-	content: "";
-	position: absolute;
-	top: 8px;
-	left: 1px;	
-	width: 15px;
-	height: 2px;	
-	background-color: #000000;
+.login-checkbox input[type='checkbox']:checked + .checkbox-indicator::before,
+.login-checkbox input[type='checkbox']:checked + .checkbox-indicator::after
+{
+    position: absolute;
+    top: 8px;
+    left: 1px;
+
+    width: 15px;
+    height: 2px;
+
+    content: '';
+
+    background-color: #000;
 }
 
-.login-checkbox input[type="checkbox"] + .checkbox-indicator::before {
-	transform: rotate(45deg)
+.login-checkbox input[type='checkbox'] + .checkbox-indicator::before
+{
+    transform: rotate(45deg);
 }
 
-.login-checkbox input[type="checkbox"] + .checkbox-indicator::after {
-	transform: rotate(-45deg)
+.login-checkbox input[type='checkbox'] + .checkbox-indicator::after
+{
+    transform: rotate(-45deg);
 }
 
-.modal-content-map {
-	display: none;
-	
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	z-index: 20;
-	
-	width: 766px;
-	height: 561px;
-	
-	background: #e9e5dc url(../img/barbershop-index/map.png);
-	margin-top: -280px;
-	margin-left: -390px;
-	border: 7px solid white;
-	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);	
+.modal-content-map
+{
+    position: fixed;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+
+    display: none;
+
+    width: 766px;
+    height: 561px;
+    margin-top: -280px;
+    margin-left: -390px;
+
+    border: 7px solid white;
+    background: #e9e5dc url(../img/barbershop-index/map.png);
+    box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
 }
 
-.modal-content-map-show {
-	display: block;
+.modal-content-map-show
+{
+    display: block;
 }
 
-.modal-overlay {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 10;
-	
-	width: 100%;
-	height: 100%;
-	
-	background: rgba(255, 0, 0, 0,5);
+.modal-overlay
+{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(255, 0, 0, 0,5);
 }
 
-.inner-shop-column-left {
-	width: 190px;
-	float: left;
+.inner-shop-column-left
+{
+    float: left;
+
+    width: 190px;
 }
 
-.inner-shop-column-right {
-	width: 720px;
-	float: right;
-	margin-left: 30px;
+.inner-shop-column-right
+{
+    float: right;
+
+    width: 720px;
+    margin-left: 30px;
 }
 
-.inner-shop-column-left .form {	
+
+
+.form fieldset
+{
+    border-width: 0;
 }
 
-.form fieldset {
-	border-width: 0;
+.form-title
+{
+    font-size: 18px;
+    line-height: 24px;
+
+    margin: 0;
+    margin-bottom: 25px;
 }
 
-.form-title {
-	margin: 0;
-	margin-bottom: 25px;
-
-	font-size: 18px;
-	line-height: 24px;
+.form-title:last-of-type
+{
+    margin-top: 25px;
 }
 
-.form-title:last-of-type {
-	margin-top: 25px;
+.item-shop
+{
+    float: left;
+
+    width: 220px;
+    height: 290px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    background-color: #fff;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.75);
 }
 
-.item-shop {
-	width: 220px;
-	height: 290px;
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	box-shadow:  0px 0px 15px 0px rgba(0,0,0,0.75);
-	background-color: #ffffff;
-}
-
-.item-shop-name {
-	margin-top: 5px;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	margin-left: 10px;
+.item-shop-name
+{
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 /*
 .btn {
@@ -1033,84 +1262,96 @@ padding: 10px 15px;
 
 
 
-.btn-price {
-	display: inline-block;
-/*	padding: 10px 33px;*/
-	margin-right: 0;
-	margin-left: 16px;
+.btn-price
+{
+    font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
 
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial", sans-serif;
-	vertical-align: top;
-	text-align: center;
-	color: #000000;
-	text-transform: uppercase;
-	text-decoration: none;
-	background-color: #e5e5e5;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	min-width: 110px;
-	min-height: 45px;
+    display: inline-block;
+
+    min-width: 110px;
+    min-height: 45px;
+    /*	padding: 10px 33px;*/
+    margin-right: 0;
+    margin-left: 16px;
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #000;
+    border: none;
+    outline: none;
+    background-color: #e5e5e5;
 }
 
-.btn-buy {
-	display: inline-block;
-/*
+.btn-buy
+{
+    font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+
+    display: inline-block;
+
+    margin-left: -3px;
+    /*
 	min-width: 78px;
 	min-height: 45px;
 */
-	padding: 10.5px 19px;
-	margin-left: -3px;
+    padding: 10.5px 19px;
 
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial", sans-serif;
-	vertical-align: top;
-	text-align: center;
-	color: #ffffff;
-	text-transform: uppercase;
-	text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
 
-	background-color: #000000;
-	border: none;
-	outline: none;
-	cursor: pointer;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #000;
 }
 
 .btn-buy:hover,
-.btn-buy:active {
-	background-color: #663d15;
+.btn-buy:active
+{
+    background-color: #663d15;
 }
 
-.number-btn {
-	display: inline-block;
-	padding: 10px 20px;
-	margin-right: 5px;
-	margin-top: 40px;
+.number-btn
+{
+    font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
 
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 24px;
-	font-family: "PT Sans Narrow", "Arial", sans-serif;
-	vertical-align: top;
-	text-align: center;
-	color: #ffffff;
-	text-transform: uppercase;
-	text-decoration: none;
+    display: inline-block;
 
-	background-color: #000000;
-	border: none;
-	outline: none;
-	cursor: pointer;
+    margin-top: 40px;
+    margin-right: 5px;
+    padding: 10px 20px;
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #000;
 }
 
 .number-btn:hover,
-.number-btn:active {
-	background-color: #663d15;
+.number-btn:active
+{
+    background-color: #663d15;
 }
 
 
@@ -1121,191 +1362,236 @@ padding: 10px 15px;
 
 
 /* The container */
-.checkbox-container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 25px;
-    cursor: pointer;
+.checkbox-container
+{
     font-size: px;
+
+    position: relative;
+
+    display: block;
+
+    margin-bottom: 25px;
+    padding-left: 35px;
+
+    cursor: pointer;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 /* Hide the browser's default checkbox */
-.checkbox-container input {
+.checkbox-container input
+{
     position: absolute;
-    opacity: 0;
+
     cursor: pointer;
+
+    opacity: 0;
 }
 
 /* Create a custom checkbox */
-.checkbox-checkmark {
+.checkbox-checkmark
+{
     position: absolute;
-/*
+    /*
     top: 0;
     left: 0;
     height: 25px;
     width: 25px;
     background-color: #eee;
-*/	
-	position: absolute;
-	top: 2px;
-	left: 0;	
-	width: 17px;
-	height: 17px;
-	border: 2px solid #000000;
+*/
+    position: absolute;
+    top: 2px;
+    left: 0;
+
+    width: 17px;
+    height: 17px;
+
+    border: 2px solid #000;
 }
-.checkbox-container input[type="checkbox"]:checked + .checkbox-checkmark::before,
-.checkbox-container input[type="checkbox"]:checked + .checkbox-checkmark::after {
-	content: "";
-	position: absolute;
-	top: 8px;
-	left: 1px;	
-	width: 15px;
-	height: 2px;	
-	background-color: #000000;
+.checkbox-container input[type='checkbox']:checked + .checkbox-checkmark::before,
+.checkbox-container input[type='checkbox']:checked + .checkbox-checkmark::after
+{
+    position: absolute;
+    top: 8px;
+    left: 1px;
+
+    width: 15px;
+    height: 2px;
+
+    content: '';
+
+    background-color: #000;
 }
-.checkbox-container input[type="checkbox"] + .checkbox-checkmark::before {
-	transform: rotate(45deg)
+.checkbox-container input[type='checkbox'] + .checkbox-checkmark::before
+{
+    transform: rotate(45deg);
 }
 
-.checkbox-container input[type="checkbox"] + .checkbox-checkmark::after {
-	transform: rotate(-45deg)
+.checkbox-container input[type='checkbox'] + .checkbox-checkmark::after
+{
+    transform: rotate(-45deg);
 }
 
 
 
 
-.radio-container {
-    display: block;
+.radio-container
+{
     position: relative;
-    padding-left: 35px;
+
+    display: block;
+
     margin-bottom: 12px;
+    padding-left: 35px;
+
     cursor: pointer;
-	
-    
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 /* Hide the browser's default radio button */
-.radio-container input {
+.radio-container input
+{
     position: absolute;
-    opacity: 0;
+
     cursor: pointer;
+
+    opacity: 0;
 }
 
 /* Create a custom radio button */
-.radio-checkmark {
+.radio-checkmark
+{
     position: absolute;
     top: 0;
     left: 0;
-    height: 14px;
+
     width: 14px;
-    background-color: #eee;
-	border: 2px solid black;
+    height: 14px;
+
+    border: 2px solid black;
     border-radius: 50%;
+    background-color: #eee;
 }
 /* Create the indicator (the dot/circle - hidden when not checked) */
-.radio-checkmark:after {
-    content: "";
+.radio-checkmark:after
+{
     position: absolute;
+
     display: none;
+
+    content: '';
 }
 
 /* Show the indicator (dot/circle) when checked */
-.radio-container input:checked ~ .radio-checkmark:after {
+.radio-container input:checked ~ .radio-checkmark:after
+{
     display: block;
 }
 
 /* Style the indicator (dot/circle) */
-.radio-container .radio-checkmark:after {
- 	top: 3px;
-	left: 3px;
-	width: 8px;
-	height: 8px;
-	border-radius: 50%;
-	background: black;
+.radio-container .radio-checkmark:after
+{
+    top: 3px;
+    left: 3px;
+
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+    background: black;
 }
 
-.inner-item-column-left {
-	float: left;
-	width: 480px;
-	margin-right: 60px;
-	
+.inner-item-column-left
+{
+    float: left;
+
+    width: 480px;
+    margin-right: 60px;
 }
 
-.inner-item-column-right {
-	float: left;
-	width: 400px;
-}
+.inner-item-column-right
+{
+    float: left;
 
-
-.item-image {
-	
-	margin-right: 17px;
-	
-	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
-	
-}
-
-.item-image:first-child {
-	margin-bottom: 13px;
+    width: 400px;
 }
 
 
-.item-state {
-	position: relative;
-	margin-bottom: 40px;
+.item-image
+{
+    margin-right: 17px;
+
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.75);
+}
+
+.item-image:first-child
+{
+    margin-bottom: 13px;
 }
 
 
-.item-state-status {
-	
+.item-state
+{
+    position: relative;
+
+    margin-bottom: 40px;
 }
 
-.item-state-article {
-	position: absolute;
-	top: -14px;
-	left: 288px;
-	color: #aba9a7;
+
+
+
+.item-state-article
+{
+    position: absolute;
+    top: -14px;
+    left: 288px;
+
+    color: #aba9a7;
 }
 
-.item-description {
-	margin-bottom: 40px;
-	text-indent: 2px;
+.item-description
+{
+    margin-bottom: 40px;
+
+    text-indent: 2px;
 }
 
-.brdcrmp-list {
-	list-style: none;
+.brdcrmp-list
+{
+    list-style: none;
 }
 
-.brdcrmp-list li {
-	position: relative;
+.brdcrmp-list li
+{
+    position: relative;
 
-	display: block;
-	margin-left: -15px;
+    display: block;
+
+    margin-left: -15px;
 }
 
-.brdcrmp-list li::after {
-	content: "";
-	position: absolute;
-	top: 8px;
-	right: 18px;
-	margin-right:370px;
+.brdcrmp-list li::after
+{
+    position: absolute;
+    top: 8px;
+    right: 18px;
 
-	width: 8px;
-	height: 8px;
+    width: 8px;
+    height: 8px;
+    margin-right: 370px;
 
-	background-color: #000000;
-	transform: rotate(45deg);
+    content: '';
+    transform: rotate(45deg);
+
+    background-color: #000;
 }
 
-.map {
-	margin-left: 300px;
+.map
+{
+    margin-left: 300px;
 }
