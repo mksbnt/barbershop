@@ -1101,6 +1101,48 @@ img {
 	display: block;
 }
 
+.modal-content-map-close {
+	font-size: 0;
+
+	position: absolute;
+	top: 0;
+	right: -34px;
+
+	width: 22px;
+	height: 22px;
+
+	cursor: pointer;
+
+	border: 0;
+	outline: 0;
+	background-color: transparent;
+}
+
+.modal-content-map-close::before,
+.modal-content-map-close::after {
+	position: absolute;
+
+	width: 19px;
+	height: 3px;
+	margin-top: -1px;
+	margin-left: -10px;
+
+	content: '';
+
+	border-radius: 1px;
+	background-color: #d0d0d0;
+}
+
+.modal-content-map-close::before {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.modal-content-map-close::after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
 .modal-overlay {
 	position: fixed;
 	z-index: 10;
