@@ -1,5 +1,3 @@
-привет!
-
 # barbershop
 
 psd
